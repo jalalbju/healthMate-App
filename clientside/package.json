@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Md Jalal",
+  "license": "MIT",
+  "description": "HealthMate Client App - React, Vite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -8,9 +8,9 @@
     "start": "node server.js",
     "server": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Md Jalal",
+  "license": "MIT",
+  "description": "HealthMate backend - Node.js, Express, MongoDB",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.5.0",

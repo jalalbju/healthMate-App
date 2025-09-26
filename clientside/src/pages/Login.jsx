@@ -28,7 +28,7 @@ const Login = () => {
           // localStorage.setItem("token", data.token);
           setToken(data.token);
           console.log("hello err in this block");
-          
+          toast.success("Registration Successful! please refresh the page & login");
           toast.success(data.message);
           
         } else {
@@ -42,6 +42,7 @@ const Login = () => {
         if (data.success) {
           localStorage.setItem("token", data.token);
           setToken(data.token);
+          toast.success("Login Successful");
         } else {
           toast.error(data.message);
         }
